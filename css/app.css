@@ -1,0 +1,52 @@
+/*	app.css
+	Kevin Sau Yeung Kam
+	My Website
+	This is an css file for my website
+*/
+/*rounds the nav */
+
+.vcenter{
+	vertical-align: middle;
+	display: inline-block;
+	padding-top: 5%;
+}
+
+.servicePic{
+	border-radius: 25px;
+}
+
+#my-navbar { 
+	background: #ffffff !important;
+	color: black !important;
+	opacity: .85;
+}
+
+.jumbotron{
+	background: url('background/1st.jpg') no-repeat center;
+	background-size:100% auto;
+	padding-bottom: 25%;
+	padding-top: 20%;
+}
+
+#topPage{
+	background-color: #ffffff;
+	opacity: .85;
+	border-radius: 25px;
+}
+
+#projects{
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+
+#aboutMe{
+	background-color: #dddddd;
+	padding-bottom: 15%;
+	padding-top: 10%;
+}
+
+#services{
+	background-color: #dddddd;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
