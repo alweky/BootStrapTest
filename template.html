@@ -20,13 +20,13 @@
 				</button>				
 				<a href="" class="navbar-brand">Kevin Kam</a>
 			</div>
-			<div class="collapse navbar-collapse" id="navbar-collapse">
+			<div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
 				<ul class="nav navbar-nav">
-					<li><a href="#aboutMe">About Me</a>
-					<li><a href="#projects">Projects</a>
-					<li><a href="#services">Services</a>
+					<li><a id="navOne" href="#">About Me</a>
+					<li><a id="navTwo" href="#">Projects</a>
+					<li><a id="navThree" href="#">Services</a>
 					<li><a href="https://github.com/alweky/">GitHub</a>
-					<li><a href="#contactMe">Contact Me</a>
+					<li><a id="navFour "href="#">Contact Me</a>
 				</ul>
 			</div>
 		</div>
@@ -115,6 +115,15 @@
 					</div>
 				</div>
 			</div>
+			<!-- Left and right controls -->
+            <a class="left carousel-control" href="#screenshot-carousel" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+		    </a>
+			<a class="right carousel-control" href="#screenshot-carousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
 		</div>
 	</div>
 	
@@ -181,5 +190,6 @@
 	
 	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>

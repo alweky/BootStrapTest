@@ -21,6 +21,10 @@
 	opacity: .85;
 }
 
+.navbar-toggle{
+	background-color: #333333;
+}
+
 .jumbotron{
 	background: url('background/1st.jpg') no-repeat center;
 	background-size:100% auto;
